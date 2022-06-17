@@ -1,5 +1,5 @@
 {% set name = "django-large-image" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-large-image-{{ version }}.tar.gz
-  sha256: 63be99b65f9221727f2a3a1c1e66becb7a3125400fa8146161467ae4fa38838c
+  sha256: 110512c92b500e0569361b9ea520f3e944a42accb6d7da84db0eac6fc5ea6c5d
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - djangorestframework
     - drf-yasg
     - filelock
-    - large-image >=1.14
+    - large-image >=1.15
     - python >=3.8
 
 test:
