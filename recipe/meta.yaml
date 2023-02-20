@@ -1,5 +1,5 @@
 {% set name = "django-large-image" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-large-image-{{ version }}.tar.gz
-  sha256: e656fe375f1711b423972f5d2b496d4271edef6c60af26bcb5d36889c3426797
+  sha256: 17f83dae62ec97f3cb3fca3cbd7f95fc01b4d041ba7c6e619796aa3e032478ec
 
 build:
   noarch: python
