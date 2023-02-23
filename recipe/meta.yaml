@@ -21,7 +21,7 @@ requirements:
   run:
     - django
     - djangorestframework
-    - drf-yasg
+    - drf-spectacular
     - filelock
     - large-image >=1.15
     - python >=3.8
