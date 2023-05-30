@@ -1,11 +1,11 @@
-About django-large-image
-========================
+About django-large-image-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-large-image-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/girder/django-large-image
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-large-image-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dynamic tile server in Django built on top of large-image (and GDAL)
 
